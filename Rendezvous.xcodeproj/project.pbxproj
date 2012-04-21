@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01578CA215437AAD00EAE404 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01578CA115437AAD00EAE404 /* UIKit.framework */; };
+		01578CA415437AAD00EAE404 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01578CA315437AAD00EAE404 /* Foundation.framework */; };
+		01578CA615437AAD00EAE404 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01578CA515437AAD00EAE404 /* CoreGraphics.framework */; };
+		01578CAC15437AAD00EAE404 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01578CAA15437AAD00EAE404 /* InfoPlist.strings */; };
+		01578CAE15437AAD00EAE404 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01578CAD15437AAD00EAE404 /* main.m */; };
+		01578CB215437AAD00EAE404 /* RendezvousAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01578CB115437AAD00EAE404 /* RendezvousAppDelegate.m */; };
+		01578CB515437AAD00EAE404 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01578CB315437AAD00EAE404 /* MainStoryboard.storyboard */; };
+		01578CB815437AAD00EAE404 /* RendezvousFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01578CB715437AAD00EAE404 /* RendezvousFirstViewController.m */; };
+		01578CBA15437AAD00EAE404 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 01578CB915437AAD00EAE404 /* first.png */; };
+		01578CBC15437AAD00EAE404 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01578CBB15437AAD00EAE404 /* first@2x.png */; };
+		01578CBF15437AAD00EAE404 /* RendezvousSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01578CBE15437AAD00EAE404 /* RendezvousSecondViewController.m */; };
+		01578CC115437AAD00EAE404 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 01578CC015437AAD00EAE404 /* second.png */; };
+		01578CC315437AAD00EAE404 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01578CC215437AAD00EAE404 /* second@2x.png */; };
+		01578CCB15437AAD00EAE404 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01578CCA15437AAD00EAE404 /* SenTestingKit.framework */; };
+		01578CCC15437AAD00EAE404 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01578CA115437AAD00EAE404 /* UIKit.framework */; };
+		01578CCD15437AAD00EAE404 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01578CA315437AAD00EAE404 /* Foundation.framework */; };
+		01578CD515437AAD00EAE404 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01578CD315437AAD00EAE404 /* InfoPlist.strings */; };
+		01578CD815437AAD00EAE404 /* RendezvousTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01578CD715437AAD00EAE404 /* RendezvousTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01578CCE15437AAD00EAE404 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01578C9415437AAD00EAE404 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01578C9C15437AAD00EAE404;
+			remoteInfo = Rendezvous;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01578C9D15437AAD00EAE404 /* Rendezvous.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rendezvous.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01578CA115437AAD00EAE404 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		01578CA315437AAD00EAE404 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		01578CA515437AAD00EAE404 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		01578CA915437AAD00EAE404 /* Rendezvous-Info.plist */ = {isa = PBXFileReference; path = "Rendezvous-Info.plist"; sourceTree = "<group>"; };
+		01578CAB15437AAD00EAE404 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		01578CAD15437AAD00EAE404 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01578CAF15437AAD00EAE404 /* Rendezvous-Prefix.pch */ = {isa = PBXFileReference; path = "Rendezvous-Prefix.pch"; sourceTree = "<group>"; };
+		01578CB015437AAD00EAE404 /* RendezvousAppDelegate.h */ = {isa = PBXFileReference; path = RendezvousAppDelegate.h; sourceTree = "<group>"; };
+		01578CB115437AAD00EAE404 /* RendezvousAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RendezvousAppDelegate.m; sourceTree = "<group>"; };
+		01578CB415437AAD00EAE404 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		01578CB615437AAD00EAE404 /* RendezvousFirstViewController.h */ = {isa = PBXFileReference; path = RendezvousFirstViewController.h; sourceTree = "<group>"; };
+		01578CB715437AAD00EAE404 /* RendezvousFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RendezvousFirstViewController.m; sourceTree = "<group>"; };
+		01578CB915437AAD00EAE404 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		01578CBB15437AAD00EAE404 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		01578CBD15437AAD00EAE404 /* RendezvousSecondViewController.h */ = {isa = PBXFileReference; path = RendezvousSecondViewController.h; sourceTree = "<group>"; };
+		01578CBE15437AAD00EAE404 /* RendezvousSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RendezvousSecondViewController.m; sourceTree = "<group>"; };
+		01578CC015437AAD00EAE404 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		01578CC215437AAD00EAE404 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		01578CC915437AAD00EAE404 /* RendezvousTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RendezvousTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01578CCA15437AAD00EAE404 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		01578CD215437AAD00EAE404 /* RendezvousTests-Info.plist */ = {isa = PBXFileReference; path = "RendezvousTests-Info.plist"; sourceTree = "<group>"; };
+		01578CD415437AAD00EAE404 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		01578CD615437AAD00EAE404 /* RendezvousTests.h */ = {isa = PBXFileReference; path = RendezvousTests.h; sourceTree = "<group>"; };
+		01578CD715437AAD00EAE404 /* RendezvousTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RendezvousTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01578C9A15437AAD00EAE404 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01578CA215437AAD00EAE404 /* UIKit.framework in Frameworks */,
+				01578CA415437AAD00EAE404 /* Foundation.framework in Frameworks */,
+				01578CA615437AAD00EAE404 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01578CC515437AAD00EAE404 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01578CCB15437AAD00EAE404 /* SenTestingKit.framework in Frameworks */,
+				01578CCC15437AAD00EAE404 /* UIKit.framework in Frameworks */,
+				01578CCD15437AAD00EAE404 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01578C9215437AAD00EAE404 = {
+			isa = PBXGroup;
+			children = (
+				01578CA715437AAD00EAE404 /* Rendezvous */,
+				01578CD015437AAD00EAE404 /* RendezvousTests */,
+				01578CA015437AAD00EAE404 /* Frameworks */,
+				01578C9E15437AAD00EAE404 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01578C9E15437AAD00EAE404 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01578C9D15437AAD00EAE404 /* Rendezvous.app */,
+				01578CC915437AAD00EAE404 /* RendezvousTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01578CA015437AAD00EAE404 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01578CA115437AAD00EAE404 /* UIKit.framework */,
+				01578CA315437AAD00EAE404 /* Foundation.framework */,
+				01578CA515437AAD00EAE404 /* CoreGraphics.framework */,
+				01578CCA15437AAD00EAE404 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		01578CA715437AAD00EAE404 /* Rendezvous */ = {
+			isa = PBXGroup;
+			children = (
+				01578CB015437AAD00EAE404 /* RendezvousAppDelegate.h */,
+				01578CB115437AAD00EAE404 /* RendezvousAppDelegate.m */,
+				01578CB315437AAD00EAE404 /* MainStoryboard.storyboard */,
+				01578CB615437AAD00EAE404 /* RendezvousFirstViewController.h */,
+				01578CB715437AAD00EAE404 /* RendezvousFirstViewController.m */,
+				01578CB915437AAD00EAE404 /* first.png */,
+				01578CBB15437AAD00EAE404 /* first@2x.png */,
+				01578CBD15437AAD00EAE404 /* RendezvousSecondViewController.h */,
+				01578CBE15437AAD00EAE404 /* RendezvousSecondViewController.m */,
+				01578CC015437AAD00EAE404 /* second.png */,
+				01578CC215437AAD00EAE404 /* second@2x.png */,
+				01578CA815437AAD00EAE404 /* Supporting Files */,
+			);
+			path = Rendezvous;
+			sourceTree = "<group>";
+		};
+		01578CA815437AAD00EAE404 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01578CA915437AAD00EAE404 /* Rendezvous-Info.plist */,
+				01578CAA15437AAD00EAE404 /* InfoPlist.strings */,
+				01578CAD15437AAD00EAE404 /* main.m */,
+				01578CAF15437AAD00EAE404 /* Rendezvous-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01578CD015437AAD00EAE404 /* RendezvousTests */ = {
+			isa = PBXGroup;
+			children = (
+				01578CD615437AAD00EAE404 /* RendezvousTests.h */,
+				01578CD715437AAD00EAE404 /* RendezvousTests.m */,
+				01578CD115437AAD00EAE404 /* Supporting Files */,
+			);
+			path = RendezvousTests;
+			sourceTree = "<group>";
+		};
+		01578CD115437AAD00EAE404 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01578CD215437AAD00EAE404 /* RendezvousTests-Info.plist */,
+				01578CD315437AAD00EAE404 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01578C9C15437AAD00EAE404 /* Rendezvous */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01578CDB15437AAD00EAE404 /* Build configuration list for PBXNativeTarget "Rendezvous" */;
+			buildPhases = (
+				01578C9915437AAD00EAE404 /* Sources */,
+				01578C9A15437AAD00EAE404 /* Frameworks */,
+				01578C9B15437AAD00EAE404 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rendezvous;
+			productName = Rendezvous;
+			productReference = 01578C9D15437AAD00EAE404 /* Rendezvous.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01578CC815437AAD00EAE404 /* RendezvousTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01578CDE15437AAD00EAE404 /* Build configuration list for PBXNativeTarget "RendezvousTests" */;
+			buildPhases = (
+				01578CC415437AAD00EAE404 /* Sources */,
+				01578CC515437AAD00EAE404 /* Frameworks */,
+				01578CC615437AAD00EAE404 /* Resources */,
+				01578CC715437AAD00EAE404 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01578CCF15437AAD00EAE404 /* PBXTargetDependency */,
+			);
+			name = RendezvousTests;
+			productName = RendezvousTests;
+			productReference = 01578CC915437AAD00EAE404 /* RendezvousTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01578C9415437AAD00EAE404 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Rendezvous;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Stanford;
+			};
+			buildConfigurationList = 01578C9715437AAD00EAE404 /* Build configuration list for PBXProject "Rendezvous" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 01578C9215437AAD00EAE404;
+			productRefGroup = 01578C9E15437AAD00EAE404 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01578C9C15437AAD00EAE404 /* Rendezvous */,
+				01578CC815437AAD00EAE404 /* RendezvousTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01578C9B15437AAD00EAE404 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01578CAC15437AAD00EAE404 /* InfoPlist.strings in Resources */,
+				01578CB515437AAD00EAE404 /* MainStoryboard.storyboard in Resources */,
+				01578CBA15437AAD00EAE404 /* first.png in Resources */,
+				01578CBC15437AAD00EAE404 /* first@2x.png in Resources */,
+				01578CC115437AAD00EAE404 /* second.png in Resources */,
+				01578CC315437AAD00EAE404 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01578CC615437AAD00EAE404 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01578CD515437AAD00EAE404 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01578CC715437AAD00EAE404 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01578C9915437AAD00EAE404 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01578CAE15437AAD00EAE404 /* main.m in Sources */,
+				01578CB215437AAD00EAE404 /* RendezvousAppDelegate.m in Sources */,
+				01578CB815437AAD00EAE404 /* RendezvousFirstViewController.m in Sources */,
+				01578CBF15437AAD00EAE404 /* RendezvousSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01578CC415437AAD00EAE404 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01578CD815437AAD00EAE404 /* RendezvousTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01578CCF15437AAD00EAE404 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01578C9C15437AAD00EAE404 /* Rendezvous */;
+			targetProxy = 01578CCE15437AAD00EAE404 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01578CAA15437AAD00EAE404 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01578CAB15437AAD00EAE404 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		01578CB315437AAD00EAE404 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01578CB415437AAD00EAE404 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		01578CD315437AAD00EAE404 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01578CD415437AAD00EAE404 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01578CD915437AAD00EAE404 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		01578CDA15437AAD00EAE404 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01578CDC15437AAD00EAE404 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rendezvous/Rendezvous-Prefix.pch";
+				INFOPLIST_FILE = "Rendezvous/Rendezvous-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		01578CDD15437AAD00EAE404 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rendezvous/Rendezvous-Prefix.pch";
+				INFOPLIST_FILE = "Rendezvous/Rendezvous-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		01578CDF15437AAD00EAE404 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Rendezvous.app/Rendezvous";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rendezvous/Rendezvous-Prefix.pch";
+				INFOPLIST_FILE = "RendezvousTests/RendezvousTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		01578CE015437AAD00EAE404 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Rendezvous.app/Rendezvous";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rendezvous/Rendezvous-Prefix.pch";
+				INFOPLIST_FILE = "RendezvousTests/RendezvousTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01578C9715437AAD00EAE404 /* Build configuration list for PBXProject "Rendezvous" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01578CD915437AAD00EAE404 /* Debug */,
+				01578CDA15437AAD00EAE404 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01578CDB15437AAD00EAE404 /* Build configuration list for PBXNativeTarget "Rendezvous" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01578CDC15437AAD00EAE404 /* Debug */,
+				01578CDD15437AAD00EAE404 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		01578CDE15437AAD00EAE404 /* Build configuration list for PBXNativeTarget "RendezvousTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01578CDF15437AAD00EAE404 /* Debug */,
+				01578CE015437AAD00EAE404 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01578C9415437AAD00EAE404 /* Project object */;
+}
